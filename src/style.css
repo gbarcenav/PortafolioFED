@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: "Catamaran", sans-serif;
+  display: block;
+  background-color: #ffcbcf;
+  color: #f22796;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 400;
+}
+/* Estilos NAVBAR */
+.container {
+  display: flex;
+  z-index: 1000;
+  border-bottom: 3em;
+  background-color: #ffcbcf;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo img {
+  height: inherit;
+}
+
+header {
+  position: relative;
+}
+
+header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.navigation {
+  top: 100%;
+  left: 0;
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+
+.nav-open {
+  height: 88vh;
+  width: 100vw;
+  height: auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffcbcf;
+  padding: 54px 74px 54px 0px;
+  text-align: right;
+  width: 360px;
+  cursor: pointer;
+  height: 22vh;
+  background-color: #f22796;
+  font-weight: 800;
+}
+
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  right: 1em;
+  margin-top: 4px;
+}
+
+.hamburguer,
+.hamburguer::before,
+.hamburguer::after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 2em;
+  border-radius: 10px;
+  background: #f22796;
+}
+
+.hamburguer::before {
+  transform: translateY(-12px);
+}
+
+.hamburguer::after {
+  transform: translateY(5px);
+}
+
+/* HEADER */
+.presentation {
+  overflow: hidden;
+}
+.name-header {
+  width: 60vw;
+  height: auto;
+  left: 62px;
+  text-align: center;
+  margin-top: 59vh;
+  position: fixed;
+  z-index: 100;
+}
+
+.name-header h1 {
+  font-size: 15px;
+}
+
+.name-header h2 {
+  font-size: 14px;
+}
+
+main span {
+  position: fixed;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
+}
+
+main .m,
+.u,
+.n,
+.d,
+.oo {
+  font-size: 60px;
+}
+
+.h {
+  left: 12vw;
+  bottom: 64vh;
+}
+
+.o {
+  left: 34vw;
+  bottom: 60vh;
+}
+
+.l {
+  left: 54vw;
+  bottom: 62vh;
+}
+
+.a {
+  left: 71vw;
+  bottom: 64vh;
+}
+
+.m {
+  left: 6vw;
+  bottom: 43vh;
+}
+
+.u {
+  left: 25vw;
+  bottom: 47vh;
+}
+
+.n {
+  left: 42vw;
+  bottom: 44vh;
+}
+
+.d {
+  left: 57vw;
+  bottom: 39vh;
+}
+
+.oo {
+  left: 73vw;
+  bottom: 45vh;
+}
+
+.exclamation {
+  left: 88vw;
+  bottom: 36vh;
+}
+
+main img {
+  position: fixed;
+}
+
+.key-mark {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 300px;
+  left: -7vw;
+  bottom: 31vh;
+  color: #6192f5;
+  display: block;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.quote-mark {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 250px;
+  left: 78vw;
+  bottom: -21vh;
+  color: #6192f5;
+  display: block;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.equal-mark {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 260px;
+  left: -7vw;
+  bottom: -14vh;
+  color: #ffb458;
+  display: block;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.parenthesis-mark {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 230px;
+  left: 82vw;
+  bottom: 34vh;
+  color: #f2809f;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.diple-mark {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  left: 23vw;
+  bottom: 23vh;
+  color: #f2809f;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.cl-diple {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  left: 51vw;
+  bottom: 39vh;
+  color: #ffb458;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
