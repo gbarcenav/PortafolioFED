@@ -29,7 +29,7 @@ h3 {
   display: flex;
   z-index: 1000;
   border-bottom: 3em;
-  background-color: #ffcbcf;
+  background-color: transparent;
   width: 100%;
   height: auto;
   padding: 10px;
@@ -80,13 +80,13 @@ header::after {
 .navigation ul li a {
   display: block;
   text-decoration: none;
-  color: #ffcbcf;
+  color: #f2809f;
   padding: 54px 74px 54px 0px;
   text-align: right;
   width: 360px;
   cursor: pointer;
   height: 22vh;
-  background-color: #f22796;
+  background-color: #ffcbcf;
   font-weight: 800;
 }
 
@@ -121,9 +121,9 @@ header::after {
   overflow: hidden;
 }
 .name-header {
-  width: 60vw;
+  width: 70vw;
   height: auto;
-  left: 62px;
+  left: 47px;
   text-align: center;
   margin-top: 59vh;
   position: fixed;
@@ -131,11 +131,12 @@ header::after {
 }
 
 .name-header h1 {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .name-header h2 {
-  font-size: 14px;
+  font-size: 15px;
+  color: #6192f5;
 }
 
 main span {
