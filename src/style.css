@@ -8,8 +8,15 @@
 body {
   font-family: "Catamaran", sans-serif;
   display: block;
-  background-color: #ffcbcf;
-  color: #f22796;
+  background-color: #292a3a;
+  color: #e46ea7;
+}
+
+section {
+  /* height: 100vh; */
+  width: 100vw;
+  display: block;
+  z-index: 101;
 }
 
 h1 {
@@ -48,7 +55,10 @@ h3 {
 }
 
 header {
-  position: relative;
+  position: fixed;
+  /* z-index: 1000; */
+  top: 0;
+  /* width: 100%; */
 }
 
 header::after {
@@ -66,7 +76,6 @@ header::after {
 }
 
 .nav-open {
-  height: 88vh;
   width: 100vw;
   height: auto;
 }
@@ -80,13 +89,13 @@ header::after {
 .navigation ul li a {
   display: block;
   text-decoration: none;
-  color: #f2809f;
+  color: #e46ea6;
   padding: 54px 74px 54px 0px;
   text-align: right;
   width: 360px;
   cursor: pointer;
   height: 22vh;
-  background-color: #ffcbcf;
+  background-color: #292a3a;
   font-weight: 800;
 }
 
@@ -105,7 +114,7 @@ header::after {
   height: 7px;
   width: 2em;
   border-radius: 10px;
-  background: #f22796;
+  background: #e46ea6;
 }
 
 .hamburguer::before {
@@ -118,14 +127,18 @@ header::after {
 
 /* HEADER */
 .presentation {
+  /* position: absolute; */
   overflow: hidden;
+  /* background-color: #29293a; */
+  height: 100vh;
 }
+
 .name-header {
   width: 70vw;
   height: auto;
   left: 47px;
   text-align: center;
-  margin-top: 59vh;
+  margin-top: 75vh;
   position: fixed;
   z-index: 100;
 }
@@ -139,12 +152,16 @@ header::after {
   color: #6192f5;
 }
 
+/* .fisrt-section {
+  position: fixed;
+} */
+
 main span {
   position: fixed;
   font-size: 80px;
   font-weight: 900;
   font-family: "Fredoka One", cursive;
-  color: aliceblue;
+  color: #f5f8fe;
 }
 
 main .m,
@@ -205,10 +222,6 @@ main .m,
   bottom: 36vh;
 }
 
-main img {
-  position: fixed;
-}
-
 .key-mark {
   font-family: "Catamaran", sans-serif;
   font-weight: 900;
@@ -245,7 +258,7 @@ main img {
   font-size: 260px;
   left: -7vw;
   bottom: -14vh;
-  color: #ffb458;
+  color: #f0e535;
   display: block;
   -webkit-transform: rotate(-30deg);
   -moz-transform: rotate(-30deg);
@@ -260,7 +273,7 @@ main img {
   font-size: 230px;
   left: 82vw;
   bottom: 34vh;
-  color: #f2809f;
+  color: #e46ea7;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
@@ -274,7 +287,7 @@ main img {
   font-size: 120px;
   left: 23vw;
   bottom: 23vh;
-  color: #f2809f;
+  color: #e46ea7;
   -webkit-transform: rotate(-30deg);
   -moz-transform: rotate(-30deg);
   -o-transform: rotate(-30deg);
@@ -288,10 +301,34 @@ main img {
   font-size: 150px;
   left: 51vw;
   bottom: 39vh;
-  color: #ffb458;
+  color: #f0e535;
   -webkit-transform: rotate(-30deg);
   -moz-transform: rotate(-30deg);
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.about-me {
+  position: absolute;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: 100vh;
+}
+
+.me-illustration {
+  margin-left: auto;
+  margin-right: auto;
+  width: 67vw;
+  display: block;
+  margin-top: 7vh;
+}
+
+.about-me-text {
+  width: 83vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 19px;
+  margin-top: 30px;
 }
