@@ -339,7 +339,7 @@ main .m,
 /* -------------------------------------------------------- */
 
 .skills-section {
-  position: absolute;
+  position: relative;
   /* overflow: scroll; */
   background-color: #29293a;
   height: auto;
@@ -358,4 +358,49 @@ main .m,
   width: 7%;
   float: left;
   margin-right: 7px;
+}
+
+/* -------------------------------------------------------- */
+.projects-section {
+  position: relative;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: auto;
+  padding-top: 13vh;
+  padding-bottom: 30px;
+}
+
+.container-projects {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------------------------- */
+
+.contact-section {
+  position: relative;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: auto;
+  padding-top: 13vh;
+  padding-bottom: 30px;
+}
+
+.contact-me {
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.data-container {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data-container a {
+  text-decoration: none;
+  color: #f0e535;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
 }
