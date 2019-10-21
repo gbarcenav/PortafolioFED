@@ -30,13 +30,14 @@ h2 {
 
 h3 {
   font-weight: 400;
+  color: #6192f5;
 }
 /* Estilos NAVBAR */
 .container {
   display: flex;
   z-index: 1000;
   border-bottom: 3em;
-  background-color: transparent;
+  background-color: #29293a;
   width: 100%;
   height: auto;
   padding: 10px;
@@ -44,14 +45,14 @@ h3 {
 }
 
 .logo {
-  height: 50px;
+  height: 9vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
 .logo img {
-  height: inherit;
+  height: 9vh;
 }
 
 header {
@@ -90,11 +91,11 @@ header::after {
   display: block;
   text-decoration: none;
   color: #e46ea6;
-  padding: 54px 74px 54px 0px;
+  padding: 13% 11% 12% 0px;
   text-align: right;
-  width: 360px;
+  width: 100vw;
   cursor: pointer;
-  height: 22vh;
+  height: 25%;
   background-color: #292a3a;
   font-weight: 800;
 }
@@ -127,9 +128,9 @@ header::after {
 
 /* HEADER */
 .presentation {
-  /* position: absolute; */
+  position: relative;
   overflow: hidden;
-  /* background-color: #29293a; */
+  background-color: #29293a;
   height: 100vh;
 }
 
@@ -310,10 +311,11 @@ main .m,
 }
 
 .about-me {
-  position: absolute;
+  position: relative;
   /* overflow: scroll; */
   background-color: #29293a;
-  height: 100vh;
+  height: 100%;
+  padding-top: 4%;
 }
 
 .me-illustration {
@@ -329,6 +331,76 @@ main .m,
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  line-height: 19px;
-  margin-top: 30px;
+  line-height: 130%;
+  margin-top: 19px;
+  font-size: 82%;
+}
+
+/* -------------------------------------------------------- */
+
+.skills-section {
+  position: relative;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: auto;
+  padding-top: 15vh;
+}
+
+.skills-section p {
+  font-weight: 500;
+}
+
+.ts-skills {
+  margin-left: 30px;
+}
+
+.skills-item {
+  width: 7%;
+  float: left;
+  margin-right: 7px;
+}
+
+/* -------------------------------------------------------- */
+.projects-section {
+  position: relative;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: auto;
+  padding-top: 13vh;
+  padding-bottom: 30px;
+}
+
+.container-projects {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------------------------- */
+
+.contact-section {
+  position: relative;
+  /* overflow: scroll; */
+  background-color: #29293a;
+  height: auto;
+  padding-top: 13vh;
+  padding-bottom: 30px;
+}
+
+.contact-me {
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.data-container {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data-container a {
+  text-decoration: none;
+  color: #f0e535;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
 }
