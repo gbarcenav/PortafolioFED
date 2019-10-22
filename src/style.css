@@ -26,6 +26,7 @@ h1 {
 
 h2 {
   font-weight: 700;
+  line-height: 23px;
 }
 
 h3 {
@@ -354,6 +355,31 @@ main .m,
   margin-left: 30px;
 }
 
+.ts-skills-soft {
+  margin-left: 35vw;
+  padding-bottom: 30px;
+}
+
+/* .ts-skills figure img {
+  width: 20px;
+} */
+
+.skills-item-fb {
+  width: 15px;
+  padding-bottom: 6px;
+  margin-left: 5px;
+}
+
+.skills-item-tt {
+  width: 13px;
+  padding-bottom: 6px;
+  margin-left: 6px;
+}
+
+.sk-item-st {
+  width: 17px;
+}
+
 .skills-item {
   width: 7%;
   float: left;
@@ -403,4 +429,213 @@ main .m,
   color: #f0e535;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
+}
+
+.contact-me-cv {
+  width: 25px;
+  margin-right: 3px;
+  margin-left: -2px;
+  margin-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburguer,
+  .hamburguer::before,
+  .hamburguer::after {
+    display: none;
+  }
+
+  .navigation {
+    position: absolute;
+    overflow: visible;
+    top: 0%;
+    left: 15vw;
+    height: 0;
+    width: 87%;
+    text-align: right;
+  }
+
+  .navigation ul {
+    width: 90%;
+  }
+
+  .navigation ul li {
+    float: left;
+    width: fit-content;
+    margin-left: 15px;
+    margin-top: 5vh;
+  }
+
+  .logo {
+    margin-left: 3vw;
+    margin-top: 1vh;
+  }
+
+  .navigation ul li a {
+    display: contents;
+    float: left;
+    font-size: 27px;
+  }
+
+  .name-header {
+    position: relative;
+    left: 39px;
+  }
+
+  .first-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  main span {
+    position: relative;
+  }
+
+  .key-mark {
+    bottom: 78vh;
+  }
+  .quote-mark {
+    width: fit-content;
+    height: fit-content;
+    left: 72vw;
+    bottom: 73vh;
+    overflow: hidden;
+  }
+
+  .equal-mark {
+    bottom: 133vh;
+  }
+
+  .parenthesis-mark {
+    left: 72vw;
+    bottom: 201vh;
+  }
+
+  .diple-mark {
+    left: 14vw;
+    bottom: 178vh;
+  }
+
+  .cl-diple {
+    left: 33vw;
+    bottom: 199vh;
+  }
+
+  .h {
+    left: -13vw;
+    bottom: 210vh;
+  }
+  .o {
+    left: -3vw;
+    bottom: 207vh;
+  }
+
+  .l {
+    left: 7vw;
+    bottom: 210vh;
+  }
+
+  .a {
+    left: 17vw;
+    bottom: 210vh;
+  }
+
+  .m {
+    left: 1vw;
+    bottom: 206vh;
+  }
+
+  .u {
+    left: 10vw;
+    bottom: 209vh;
+  }
+
+  .n {
+    left: 22vw;
+    bottom: 204vh;
+  }
+
+  .d {
+    left: 33vw;
+    bottom: 207vh;
+  }
+
+  .oo {
+    left: 43vw;
+    bottom: 204vh;
+  }
+
+  .exclamation {
+    left: 51vw;
+    bottom: 207vh;
+  }
+
+  .me-illustration {
+    width: 44vw;
+  }
+
+  .about-me-text {
+    font-size: 174%;
+    margin-top: 47px;
+  }
+
+  h2 {
+    font-size: 37px;
+    line-height: 33px;
+  }
+
+  .skills-item {
+    width: 43px;
+  }
+
+  .skills-item-fb {
+    width: 32px;
+  }
+
+  .skills-item-tt {
+    width: 28px;
+  }
+
+  .sk-item-st {
+    width: 37px;
+  }
+
+  .skills-section p {
+    font-size: 31px;
+  }
+
+  h3 {
+    font-size: 37px;
+  }
+
+  .ts-skills {
+    margin-left: 56px;
+  }
+
+  .ts-skills-soft {
+    position: relative;
+    left: 292px;
+    bottom: 718px;
+  }
+
+  .skills-section {
+    height: 983px;
+  }
+
+  .data-container p {
+    font-size: 30px;
+  }
+
+  .data-container figure img {
+    width: 47px;
+  }
+
+  .contact-me-cv {
+    width: 51px;
+  }
+
+  .data-container {
+    width: 59vw;
+  }
 }
