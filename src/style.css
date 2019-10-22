@@ -51,6 +51,10 @@ h3 {
   text-align: center;
 }
 
+.logo-tab {
+  display: none;
+}
+
 .logo img {
   height: 9vh;
 }
@@ -378,6 +382,7 @@ main .m,
 
 .ts-skills-tech {
   margin-bottom: 45px;
+  margin-left: 77px;
 }
 
 .ts-skills-soft {
@@ -489,4 +494,305 @@ main .m,
   color: #f0e535;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburguer,
+  .hamburguer::before,
+  .hamburguer::after {
+    display: none;
+  }
+
+  .container {
+    height: 13vh;
+  }
+
+  .navigation {
+    overflow: visible;
+    top: 0%;
+    height: 0;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .navigation ul {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navigation ul li {
+    float: left;
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5vh;
+  }
+
+  .navigation ul li a {
+    display: contents;
+    float: left;
+    font-size: 27px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-tab {
+    display: block;
+    width: 5vh;
+  }
+
+  .name-header {
+    position: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main span {
+    font-size: 151px;
+  }
+
+  main .m,
+  .u,
+  .n,
+  .d,
+  .oo {
+    font-size: 135px;
+  }
+
+  .key-mark {
+    left: 1vw;
+    bottom: 45vh;
+    font-size: 390px;
+  }
+
+  .quote-mark {
+    bottom: -12vh;
+    font-size: 390px;
+  }
+  .equal-mark {
+    left: -1vh;
+    font-size: 390px;
+  }
+
+  .parenthesis-mark {
+    font-size: 390px;
+  }
+
+  .diple-mark {
+    font-size: 350px;
+    bottom: 8vh;
+  }
+
+  .cl-diple {
+    font-size: 343px;
+    bottom: 37vh;
+  }
+
+  .o {
+    left: 35vw;
+    bottom: 59vh;
+  }
+
+  .l {
+    left: 57vw;
+    bottom: 65vh;
+  }
+
+  .a {
+    left: 75vw;
+    bottom: 60vh;
+  }
+
+  /* ------------------------------- */
+
+  .me-illustration {
+    width: 51vw;
+    margin-bottom: 51px;
+  }
+
+  .about-me-text {
+    font-size: 29px;
+  }
+
+  .delete-br {
+    display: none;
+  }
+
+  .skills-section h2 {
+    font-size: 41px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .skills-section p {
+    font-size: 31px;
+  }
+
+  .skills-item {
+    width: 45px;
+  }
+
+  .skills-item-FB {
+    width: 32px;
+  }
+
+  .skills-item-FIG {
+    width: 30px;
+  }
+
+  .skills-item-ADOBE {
+    width: 40px;
+  }
+
+  .skills-section h3 {
+    font-size: 40px;
+  }
+
+  .ts-skills-soft {
+    left: 9vw;
+    position: absolute;
+    bottom: 117px;
+    width: 50vw;
+  }
+
+  /* ------------------------------------ */
+
+  .projects-section h2 {
+    font-size: 41px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .project {
+    height: 172px;
+  }
+
+  /* ------------------------------------------------- */
+  .data-container h2 {
+    font-size: 41px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .data-container {
+    width: 57vw;
+  }
+
+  .data-container p {
+    font-size: 33px;
+  }
+
+  .contact-me {
+    width: 49px;
+  }
+
+  .contact-me-CV {
+    width: 55px;
+  }
+
+  .container-items-menu {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-items-menu {
+    position: relative;
+  }
+  .navigation ul {
+    width: 90vw;
+    left: 44%;
+    position: relative;
+  }
+
+  .navigation ul li {
+    float: left;
+    width: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5vh;
+    right: 40%;
+    position: relative;
+  }
+
+  .logo-tab {
+    width: 9vh;
+  }
+
+  .container {
+    height: 15vh;
+  }
+
+  .me-illustration {
+    width: 31vw;
+    margin-bottom: 31px;
+  }
+
+  .about-me-text {
+    font-size: 25px;
+  }
+
+  .skills-section p {
+    font-size: 21px;
+  }
+
+  .container-projects {
+    float: none;
+    text-align: left;
+  }
+
+  .project {
+    float: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 17vh;
+  }
+
+  .projects-section {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .presentation {
+    height: 100vh;
+  }
+
+  .skills-section {
+    height: 100vh;
+  }
+
+  .projects-section {
+    height: 100vh;
+  }
+
+  .contact-section {
+    height: 100vh;
+  }
+
+  .me-illustration {
+    width: 19vw;
+  }
+
+  .navigation ul {
+    left: 50%;
+  }
+
+  .about-me {
+    height: 100vh;
+  }
+
+  .data-container {
+    width: 35vw;
+  }
+
+  .project {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
 }
