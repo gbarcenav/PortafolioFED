@@ -16,7 +16,7 @@ section {
   /* height: 100vh; */
   width: 100vw;
   display: block;
-  z-index: 101;
+  /* z-index: 101; */
 }
 
 h1 {
@@ -140,12 +140,13 @@ header::after {
   left: 47px;
   text-align: center;
   margin-top: 75vh;
-  position: fixed;
+  position: absolute;
   z-index: 100;
 }
 
 .name-header h1 {
   font-size: 3vh;
+  margin-block-end: -7px;
 }
 
 .name-header h2 {
@@ -153,12 +154,23 @@ header::after {
   color: #6192f5;
 }
 
+.name-header p {
+  margin-block-end: -7px;
+  font-size: 3vh;
+  font-weight: 800;
+  color: #efe536;
+}
+
+.name-designer {
+  margin-block-start: -6px;
+}
+
 /* .fisrt-section {
   position: fixed;
 } */
 
 main span {
-  position: fixed;
+  position: absolute;
   font-size: 80px;
   font-weight: 900;
   font-family: "Fredoka One", cursive;
@@ -346,6 +358,16 @@ main .m,
   padding-top: 15vh;
 }
 
+.skills-section h2 {
+  color: #efe536;
+  text-align: center;
+  line-height: 23px;
+}
+
+.skills-section h3 {
+  font-weight: 700;
+}
+
 .skills-section p {
   font-weight: 500;
 }
@@ -354,10 +376,52 @@ main .m,
   margin-left: 30px;
 }
 
+.ts-skills-tech {
+  margin-bottom: 45px;
+}
+
+.ts-skills-soft {
+  margin-left: 35vw;
+  padding-bottom: 30px;
+}
+
+.ts-skills-soft h3 {
+  font-weight: 700;
+}
+
 .skills-item {
   width: 7%;
   float: left;
   margin-right: 7px;
+}
+
+.skills-item-FB {
+  width: 15px;
+  padding-bottom: 6px;
+  margin-left: 5px;
+}
+
+.skills-item-FIG {
+  width: 13px;
+  padding-bottom: 6px;
+  margin-left: 6px;
+}
+
+.skills-item-MARVEL {
+  padding-top: 4px;
+}
+
+.skills-item-ADOBE {
+  width: 17px;
+}
+
+.skills-item-soft {
+  width: 20px;
+}
+
+.skills-item-TE {
+  width: 20px;
+  padding-bottom: 6px;
 }
 
 /* -------------------------------------------------------- */
@@ -370,10 +434,19 @@ main .m,
   padding-bottom: 30px;
 }
 
+.projects-section h2 {
+  color: #efe536;
+  text-align: center;
+}
+
 .container-projects {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project {
+  height: 100px;
 }
 /* ----------------------------------- */
 
@@ -392,10 +465,23 @@ main .m,
   margin-right: 10px;
 }
 
+.contact-me-CV {
+  width: 25px;
+  margin-right: 3px;
+  margin-left: -2px;
+  margin-top: 3px;
+}
+
 .data-container {
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.data-container h2 {
+  color: #6192f5;
+  font-weight: 800;
+  text-align: center;
 }
 
 .data-container a {
