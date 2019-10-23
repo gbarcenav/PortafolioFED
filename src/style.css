@@ -462,6 +462,7 @@ main .m,
   height: auto;
   padding-top: 13vh;
   padding-bottom: 30px;
+  height: 100vh;
 }
 
 .contact-me {
@@ -756,6 +757,94 @@ main .m,
   .projects-section {
     height: 100vh;
   }
+
+  .key-mark {
+    bottom: 32vh;
+  }
+
+  .quote-mark {
+    bottom: -29vh;
+  }
+
+  .equal-mark {
+    left: 8vh;
+    bottom: -22vh;
+  }
+
+  .parenthesis-mark {
+    bottom: 21vh;
+  }
+
+  .diple-mark {
+    left: 30vw;
+    bottom: 2vh;
+  }
+
+  .cl-diple {
+    bottom: 28vh;
+  }
+
+  .h {
+    bottom: 61vh;
+  }
+
+  .l {
+    bottom: 62vh;
+  }
+
+  .m {
+    bottom: 33vh;
+  }
+
+  .u {
+    bottom: 42vh;
+  }
+
+  .n {
+    bottom: 37vh;
+  }
+
+  .d {
+    bottom: 29vh;
+  }
+
+  .oo {
+    bottom: 38vh;
+  }
+
+  .exclamation {
+    bottom: 27vh;
+  }
+
+  .skills-item {
+    width: 27px;
+  }
+
+  .skills-item-FB {
+    width: 21px;
+  }
+
+  .skills-item-MARVEL {
+    width: 23px;
+  }
+
+  .skills-item-FIG {
+    width: 20px;
+  }
+
+  .skills-item-ADOBE {
+    width: 29px;
+  }
+
+  .skills-section {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-section {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -794,5 +883,21 @@ main .m,
   .project {
     margin-left: 3vw;
     margin-right: 3vw;
+  }
+
+  .skills-item-FB {
+    width: 19px;
+  }
+
+  .skills-item-MARVEL {
+    width: 23px;
+  }
+
+  .skills-item-FIG {
+    width: 17px;
+  }
+
+  .skills-item-ADOBE {
+    width: 23px;
   }
 }
