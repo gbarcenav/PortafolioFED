@@ -201,7 +201,7 @@ main .m,
 }
 
 .l {
-  left: 54vw;
+  left: 56vw;
   bottom: 62vh;
 }
 
@@ -396,7 +396,7 @@ main .m,
 }
 
 .skills-item {
-  width: 7%;
+  width: 21px;
   float: left;
   margin-right: 7px;
 }
@@ -442,6 +442,7 @@ main .m,
   height: auto;
   padding-top: 13vh;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .projects-section h2 {
@@ -512,6 +513,18 @@ main .m,
   font-weight: 800;
 }
 
+.contact-me-gh {
+  width: 23px;
+}
+
+.container-made{
+  margin-left: 104px;
+}
+
+.br-tab{
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .hamburguer,
   .hamburguer::before,
@@ -533,8 +546,7 @@ main .m,
 
   .navigation ul {
     width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 43px;
   }
 
   .navigation ul li {
@@ -548,7 +560,7 @@ main .m,
   .navigation ul li a {
     display: contents;
     float: left;
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .logo {
@@ -557,7 +569,7 @@ main .m,
 
   .logo-tab {
     display: block;
-    width: 5vh;
+    width: 7vh;
   }
 
   .name-header {
@@ -648,7 +660,7 @@ main .m,
   }
 
   .skills-item {
-    width: 45px;
+    width: 39px;
   }
 
   .skills-item-FB {
@@ -729,6 +741,26 @@ main .m,
     margin-left: auto;
   }
 
+  .project-description h3 {
+    font-size: 27px;
+}
+
+.contact-me-gh {
+  width: 39px;
+  padding-top: 3px; 
+}
+
+.project-description p, a {
+  font-size: 23px;
+}
+
+.br-tab{
+  display: block;
+}
+
+.container-made {
+  margin-left: 233px;
+}
   
 }
 
@@ -786,7 +818,7 @@ main .m,
   }
 
   .projects-section {
-    height: 100vh;
+    height: auto;
   }
 
   .key-mark {
@@ -888,7 +920,7 @@ main .m,
   }
 
   .projects-section {
-    height: 100vh;
+    height: auto;
   }
 
   .contact-section {
@@ -900,7 +932,7 @@ main .m,
   }
 
   .navigation ul {
-    left: 50%;
+      left: 57%;
   }
 
   .about-me {
@@ -912,8 +944,9 @@ main .m,
   }
 
   .project {
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 7vh;
   }
 
   .skills-item-FB {
