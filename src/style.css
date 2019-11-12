@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* Estilos generales */
 body {
   font-family: "Catamaran", sans-serif;
@@ -669,6 +670,18 @@ main .m,
 
   .project {
     height: 172px;
+  }
+
+  .link-gh {
+  text-decoration: none;
+  color: #e46ea6;
+  /* padding: 13% 11% 12% 0px; */
+  text-align: right;
+  /* width: 100vw; */
+  /* cursor: pointer; */
+  /* height: 25%; */
+  /* background-color: #292a3a; */
+  /* font-weight: 800; */
   }
 
   /* ------------------------------------------------- */
